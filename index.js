@@ -190,3 +190,15 @@
 // console.log(min); // 1
 // ```
 
+function calculateEngravingPrice(message, pricePerWord) {
+   // Change code below this line
+    const amountWords = message.split();
+    return amountWords.length * pricePerWord;
+    
+    console.log(amountWords)
+   
+
+
+   // Change code above this line
+}
+calculateEngravingPrice("JavaScript is in my blood", 10)
